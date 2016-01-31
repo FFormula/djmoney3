@@ -16,3 +16,9 @@ G:\AspNET\djMoney3\bin\System.Web.Mvc.xml
 G:\AspNET\djMoney3\obj\Debug\djMoney3.csprojResolveAssemblyReference.cache
 G:\AspNET\djMoney3\obj\Debug\djMoney3.dll
 G:\AspNET\djMoney3\obj\Debug\djMoney3.pdb
+g:\GIT\djMoney3\bin\djMoney3.dll.config
+g:\GIT\djMoney3\bin\djMoney3.dll
+g:\GIT\djMoney3\bin\djMoney3.pdb
+g:\GIT\djMoney3\obj\Debug\djMoney3.csprojResolveAssemblyReference.cache
+g:\GIT\djMoney3\obj\Debug\djMoney3.dll
+g:\GIT\djMoney3\obj\Debug\djMoney3.pdb

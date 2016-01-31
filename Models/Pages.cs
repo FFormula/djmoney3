@@ -19,7 +19,7 @@ namespace djMoney3.Models
 
         public void Load ()
         {
-            DataTable table = sql.Select("SELECT * FROM story LIMIT 10");
+            DataTable table = sql.Select("SELECT * FROM story ORDER BY id DESC LIMIT 40");
             articles = new Article[table.Rows.Count];
             for (int j = 0; j < table.Rows.Count; j++)
                 articles[j] = new Article(table.Rows[j]);

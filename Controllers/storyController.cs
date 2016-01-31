@@ -36,6 +36,10 @@ namespace djMoney3.Controllers
             return View("number", article);
         }
 
+        public ActionResult add()
+        {
+            return View();
+        }
 
     }
 }
