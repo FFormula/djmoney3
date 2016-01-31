@@ -1,0 +1,10 @@
+﻿@model djMoney3.Models.Article
+
+@{
+    ViewBag.Title = "История";
+}
+
+<h2>#@Html.ActionLink(Model.ID, "number", "story", new { area = "", id = Model.ID }, new { @class = "t1" }) &nbsp; @Model.Title</h2>
+
+<tt>@Model.PostDate</tt>
+<p>@Model.Content</p>

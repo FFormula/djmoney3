@@ -1,0 +1,16 @@
+﻿@model djMoney3.Models.Pages
+
+@{
+    ViewBag.Title = "Pages";
+}
+
+<h2>Pages</h2>
+
+@foreach (var x in Model.articles)
+{
+    <div>
+        <h2>#@Html.ActionLink(x.ID, "number", "story", new { area = "", id = x.ID }, new { @class = "t1" }) &nbsp; @x.Title</h2>
+        <tt>@x.PostDate</tt>
+        <p>@x.Content</p>
+    </div>
+}
