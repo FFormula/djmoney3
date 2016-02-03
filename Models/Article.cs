@@ -49,24 +49,17 @@ namespace djMoney3.Models
             }
         }
 
-        public void GetRandom()
+        public int GetRandom()
         {
             try
             {
                 DataTable story = sql.Select(
-                    "SELECT id, title, post_date, story, likes FROM story ORDER BY rand() LIMIT 1");
-                ID = story.Rows[0]["id"].ToString();
-                Title = story.Rows[0]["title"].ToString();
-                PostDate = story.Rows[0]["post_date"].ToString();
-                Content = story.Rows[0]["story"].ToString();
-                Likes = story.Rows[0]["likes"].ToString();
+                    "SELECT id FROM story ORDER BY rand() LIMIT 1");
+                return int.Parse(story.Rows[0]["id"].ToString());
             }
             catch
             {
-                Title = "--";
-                PostDate = "2006-01-01";
-                Content = ":)";
-                Likes = "0";
+                return 1;
             }
         }
 
