@@ -31,9 +31,9 @@ namespace djMoney3.Controllers
         public ActionResult random()
         {
             Article article = new Article();
-            article.GetRandom();
-            //OpenURL("/story/number/" + NNN);
-            return View("number", article);
+            int id = article.GetRandom();
+            // return RedirectPermanent("/story/number/" + id.ToString());
+            return View(article);
         }
 
         public ActionResult add()
