@@ -1,0 +1,5 @@
+G:\GIT\djMoney3\bin\djMoney3.dll.config
+G:\GIT\djMoney3\bin\djMoney3.dll
+G:\GIT\djMoney3\bin\djMoney3.pdb
+G:\GIT\djMoney3\obj\Debug\djMoney3.dll
+G:\GIT\djMoney3\obj\Debug\djMoney3.pdb
